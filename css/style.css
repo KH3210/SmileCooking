@@ -279,7 +279,7 @@ background-color: #f1f8f8;
     flex-direction: column;
 
      @media screen and (max-width:768px) {
-      padding: 64px 30px;
+      padding: 64px 0;
     }
 }
 
@@ -323,4 +323,5 @@ input,textarea{
     padding: 15px 0;
 
 }
+
 

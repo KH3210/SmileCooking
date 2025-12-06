@@ -277,10 +277,6 @@ background-color: #f1f8f8;
 .contact-item{
     display: flex;
     flex-direction: column;
-
-     @media screen and (max-width:768px) {
-      padding: 64px 0;
-    }
 }
 
 label{
@@ -323,5 +319,6 @@ input,textarea{
     padding: 15px 0;
 
 }
+
 
 

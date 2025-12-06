@@ -252,9 +252,12 @@ background-color: #f1f8f8;
 
 /*-- contact --*/
 .contact-container{
-    max-width: 640px;
     padding: 80px 0;
     margin: 0 auto;
+
+    @media screen and (max-width:768px) {
+      padding:60px 0;
+    }
 }
 
 .contact-top{
@@ -277,10 +280,6 @@ background-color: #f1f8f8;
 .contact-item{
     display: flex;
     flex-direction: column;
-
-          @media screen and (max-width:768px) {
-      padding: 12px 16px;
-    }
 }
 
 label{
@@ -323,6 +322,7 @@ input,textarea{
     padding: 15px 0;
 
 }
+
 
 
 
